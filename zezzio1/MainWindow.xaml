@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:zezzio1"
         mc:Ignorable="d"
-        Title="CosaInterficies" Height="450" Width="800">
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="238,217,0,0" TextWrapping="Wrap" Text="ni" VerticalAlignment="Top"/>
-
-    </Grid>
+        Title="Creació  Nom" Height="600" Width="525">
+    <StackPanel>
+        <Label Content="Nom"></Label>
+        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
+        <Label Content="Cognom"></Label>
+        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
+        <Label Content="Nom Complet"></Label>
+        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
+    </StackPanel>
 </Window>
