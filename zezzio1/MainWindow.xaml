@@ -6,12 +6,8 @@
         xmlns:local="clr-namespace:zezzio1"
         mc:Ignorable="d"
         Title="Creació  Nom" Height="600" Width="525">
-    <StackPanel>
-        <Label Content="Nom"></Label>
-        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
-        <Label Content="Cognom"></Label>
-        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
-        <Label Content="Nom Complet"></Label>
-        <TextBlock Width="30" Height="30" Text="{Binding nom, Mode=TwoWay}"/>
-    </StackPanel>
+    <Grid>
+        
+
+    </Grid>
 </Window>
